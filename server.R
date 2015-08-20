@@ -7,6 +7,7 @@ library(ggplot2)
 library(Hmisc)
 library(dplyr)
 library(stringi)
+library(markdown)
 
 data <- fread("stormdata.csv")
 

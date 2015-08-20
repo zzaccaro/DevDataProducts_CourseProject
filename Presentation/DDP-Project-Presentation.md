@@ -1,0 +1,60 @@
+Developing Data Products - Course Project
+========================================================
+author: Zach Zaccaro
+date: August 20, 2015
+transition: rotate
+
+Exploring the Storm Database
+========================================================
+
+This presentation was created as part of the course project for the Developing Data Products class within the Coursera Data Science specialization track.  
+
+The assignment is meant to help reinforce the tools/concepts learned in class, particularly the following: 
+
+- **Shiny**: used to build data product applications
+- **RStudio Presenter and Slidify**: used to create data-product-related presentations
+
+This presentation was created using **RStudio Presenter**.
+
+The Application
+========================================================
+This application was created to acquire a better understanding of **Shiny** for use in building future data product applications. It can be found [here](https://zzaccaro.shinyapps.io/DDP_Course_Project).  
+
+It allows the user to explore fatalities and injuries from severe weather events across the United States.
+
+![img1](./DDP-Project-Presentation-figure/img1.png)
+
+The Data
+========================================================
+
+This project uses the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database which contains information about severe weather events that have occurred in the United States from 1950 to 2011.
+
+The data has been obtained and processed for the project from [here](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2).
+
+Source code for the project is available on the [GitHub](https://github.com/zzaccaro/DevDataProducts_CourseProject).
+
+Snippet of the Data
+========================================================
+
+Here is a small glance of the dataset used in this project: 
+
+
+```r
+library(data.table)
+data <- fread("../stormdata.csv", select = 2:6)
+head(data)
+```
+
+```
+     STATE  EVTYPE COUNT FATALITIES INJURIES
+1: alabama TORNADO     2          0       15
+2: alabama TORNADO     5          0       13
+3: alabama TORNADO    13          6      116
+4: alabama TORNADO    22         16      248
+5: alabama TORNADO    10          0       36
+6: alabama TORNADO     8          5       27
+```
+
+
+
+

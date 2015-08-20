@@ -2,6 +2,7 @@ library(shiny)
 require(rCharts)
 library(Hmisc)
 library(dplyr)
+library(markdown)
 options(RCHART_LIB = 'highcharts')
 
 shinyUI(pageWithSidebar(

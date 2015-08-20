@@ -25,8 +25,8 @@ In the "By Event" tab, you will see two maps of the United States highlighting w
 
 ## Sources
 
-Source code for the project is available on the [GitHub](https://github.com/Senthilkumar-k/DevDataProd-CourseProject).
+Source code for the project is available on the [GitHub](https://github.com/zzaccaro/DevDataProducts_CourseProject).
 
-The presentation for the project can be found [here](http://rpubs.com/senthilkumar_k/49447).
+The presentation for the project can be found [here](http://www.rpubs.com/zzaccaro/DDPProjPres).
 
 
